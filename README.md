@@ -8,10 +8,40 @@ Wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-geonode-doc
 wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-master-geonode.sh
 ```
 
-# Inastall Code Srcipt 
+# Install Docker image 
 ```
 chmod +x install-geonode*
 ./install-geonode-dockerimage.sh
+```
+# Check Docker Image Terpasang
+pastikan docker image sudah berhasil terpasang
+```
+docker run -it hello-world
+```
+# Install master geonode
+```
 ./install-master-geonode.sh
+```
+# Check Geonode Terpasang
+```
+cd /opt/geonode
+docker logs -f django4geonode
+```
+
+# Memulai Geonode 
+> untuk memulai geonode 
+```
+  cd /opt/geonode
+  docker-compose start
+```
+Browse GeoNode instalasi pada search engine (http://localhost)
+```
+Default user name: admin
+Default password: admin
+```
+# Mengakhiri geonode 
+```
+  cd /opt/geonode
+  docker-compose stop
 ```
 
