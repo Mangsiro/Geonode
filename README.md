@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-master-geon
 # Inastall Code Srcipt 
 ```
 chmod +x install-geonode*
-./install-geonode-part1.sh
-./install-geonode-part2.sh
+./install-geonode-dockerimage.sh
+./install-master-geonode.sh
 ```
 
