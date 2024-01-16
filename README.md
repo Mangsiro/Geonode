@@ -45,4 +45,6 @@ Default password: admin
   cd /opt/geonode
   docker-compose stop
 ```
-
+Thanks about support by:
+(https://github.com/simplygeo)
+(https://docs.geonode.org/en)
