@@ -31,8 +31,8 @@ docker logs -f django4geonode
 # Memulai Geonode 
 > untuk memulai geonode 
 ```
-  cd /opt/geonode
-  docker-compose start
+cd /opt/geonode
+docker-compose start
 ```
 Browse GeoNode instalasi pada search engine (http://localhost)
 
@@ -40,11 +40,13 @@ Default user name: admin
 
 Default password: admin
 
->Mengakhiri geonode 
+>untuk mengakhiri geonode 
 ```
-  cd /opt/geonode
-  docker-compose stop
+cd /opt/geonode
+docker-compose stop
 ```
-Thanks about support by:
-(https://github.com/simplygeo)
-(https://docs.geonode.org/en)
+sourch code  by:
+
+https://github.com/simplygeo
+
+https://docs.geonode.org/en
