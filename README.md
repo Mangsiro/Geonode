@@ -4,7 +4,7 @@ Ubuntu 20.04 (Lubuntu, WSL2), Ubuntu 18.04 (WSL2)
 
 # Unduh Instalasi Geonode 3.2
 ```
-Wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-geonode-dockerimage.sh
+wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-geonode-dockerimage.sh
 wget https://raw.githubusercontent.com/Mangsiro/Geonode/main/install-master-geonode.sh
 ```
 
