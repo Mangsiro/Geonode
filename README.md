@@ -14,11 +14,11 @@ chmod +x install-geonode*
 ./install-geonode-dockerimage.sh
 ```
 # Check Docker Image Terpasang
-pastikan docker image sudah berhasil terpasang
+dilakuakan docker image sudah berhasil terpasang
 ```
 docker run -it hello-world
 ```
-# Install master geonode
+# Install Master Geonode 3.2
 ```
 ./install-master-geonode.sh
 ```
@@ -35,11 +35,12 @@ docker logs -f django4geonode
   docker-compose start
 ```
 Browse GeoNode instalasi pada search engine (http://localhost)
-```
+
 Default user name: admin
+
 Default password: admin
-```
-# Mengakhiri geonode 
+
+>Mengakhiri geonode 
 ```
   cd /opt/geonode
   docker-compose stop
