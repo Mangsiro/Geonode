@@ -1,6 +1,6 @@
 # Geonode
 instalasi GeoNode 3.2.x Instalasi script berbasis untuk Ubuntu 20.04
-Ubuntu 20.04 (Lubuntu, WSL2), Ubuntu 18.04 (WSL2)
+Ubuntu 20.04 (Ubuntu, WSL2), Ubuntu 18.04 (WSL2)
 
 # Unduh Instalasi Geonode 3.2
 ```
